@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara Martinez Fotografia</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>Clara Martinez Fotografia</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Clara Martinez</h2>
+        <p>Com mais de 10 anos de experiência, Clara é apaixonada por capturar momentos especiais e emoções autênticas. Ela é especializada em fotografia de casamentos e eventos.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="galeria">
+            <img src="https://wallpapers.com/images/hd/flowers-4k-colourful-cape-marguerite-02t2pv4fklbjroej.jpg" alt="Foto 1">
+            <img src="https://lapisdenoiva.com/romantico-medieval-oriental/casamento-oriental-medieval-35/" alt="Foto 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PE4QCHdbTScxNO4DN5PWPKli_ZJxmx3tQg&s" alt="Foto 3">
+          
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Solicitar Orçamento</h2>
+        <form action="formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Clara Martinez Fotografia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
